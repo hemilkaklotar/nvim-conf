@@ -108,7 +108,6 @@ local enabled_lsp_servers = {
   pyright = "delance-langserver",
   ruff = "ruff",
   lua_ls = "lua-language-server",
-  -- ltex = "ltex-ls",
   -- clangd = "clangd",
   vimls = "vim-language-server",
   bashls = "bash-language-server",
