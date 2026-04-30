@@ -117,6 +117,9 @@ M.colorscheme_conf = {
   alabaster = function()
     use_theme("alabaster")
   end,
+  thorn = function()
+    use_theme("thorn")
+  end,
 }
 
 --- Use a random colorscheme from the pre-defined list of colorschemes.
