@@ -83,6 +83,7 @@ vim.api.nvim_create_autocmd("LspAttach", {
       client.server_capabilities.hoverProvider = false
     end
 
+    -- TODO: turn this into a command to toggle dynamically
     -- Uncomment code below to enable inlay hint from language server, some LSP server supports inlay hint,
     -- but disable this feature by default, so you may need to enable inlay hint in the LSP server config.
     -- vim.lsp.inlay_hint.enable(true, {buffer=bufnr})
